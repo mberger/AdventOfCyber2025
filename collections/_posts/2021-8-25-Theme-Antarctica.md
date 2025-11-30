@@ -1,4 +1,13 @@
-# Antarctica Theme
+---
+layout: article
+title: Theme Antarctica
+abstract: An overview of this theme, including highlights and instructions of use
+categories: misc
+tags: antarctica theme
+eyeCatcher: https://refstatic.sk/article/od-antarktidy-sa-odtrhol-jeden-z-najvacsich-zaznamenanych-ladovcov-v-historii~25d92685f6b3b93aefe6.jpg?is=1440x513c&ic=0x439x1579x562&c=2w&s=e0efd5864ab1b7e41b8c7f5e0912f84b404ca30a53df8461106b377c19a24a21
+---
+
+---
 ![4U6cuV.png](https://z3.ax1x.com/2021/09/22/4U6cuV.png)
 
 The goal of Antarctica is evolving to an elegant and feature-rich theme across platforms.
@@ -22,24 +31,8 @@ There are three ways to install:
 ## Customization
 Customizable options are under [_config.yml](_config.yml). Coments inside will help you to edit them.
 
-## Widget System
-Widgets in Antarctica are cards docked at the right side of the page with customizable contents. To enable/disable a widget, edit the `widgets` field in the `template` section of the config.
-
-Widgets included in the current version:
-* colophon
-* comment
-* post metadata
-* share this page
-* related sites
-* table of content
-
-### Build A Widget
-Widgets are essentially self-contained HTML files including all the styles and scripts needed. To add a widget, create a HTML file under [./_includes/widgets/](./_includes/widgets/). You can take other files in this directory as a reference.
-
-### Register A Widget
-A page only loads widgets registered in it. This allows different sets of widgets to be load according to the page. To register a widget to a page, add the filename of the widget excluding the extension to the `widgets` field in the file under [./_layouts/](./_layouts/). To make the widget enabled, the name should also be added to the `widgets` field in the `template` section of the config.
-
 ## Roadmap
+
 | Feature                       | Planned Version  | Status |
 | :---------------------------- | :--------------: | :----: |
 | Scrollable widget bar         | 0.2              | √      |
@@ -48,7 +41,7 @@ A page only loads widgets registered in it. This allows different sets of widget
 | Table of contents widget      | 0.2              | √      |
 | Pinned post                   | 0.2              | √      |
 | Abstract/excerpt in preview   | 0.2              | √      |
-| Optimize view on large screen | 0.3              | √      |
+| Optimize view on large screen | 0.3              |        |
 | Arcylic color scheme          | 0.3              |        |
 
 ## License
