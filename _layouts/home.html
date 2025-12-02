@@ -1,25 +1,22 @@
 ---
-layout: scaffold
-widgets:
-  - colophon
-  - related_sites
-  - share
-  - global_cmt
+layout: default
+title: Home
 ---
 
-<div id = "midComp" class = "midMulRow mid-content noScrollbar fixedCont">
-    <div id = "midContTop"></div>
-    {%- assign post = site.posts | concat: site.projects | sort: 'date' | reverse -%}
-    {%- assign posts = site.posts | concat: site.projects -%}
-    {%- for item in posts -%}
-        {% if item != nil and item.properties contains "pinned" %}
-            {% include postPrev.html %}
-        {% endif %}
-    {%- endfor -%}
+{% for post in paginator.posts %}
+  {% include featured-post.html %}
+{% endfor %}
 
-    {%- for item in posts -%}
-        {% unless item == nil or item.properties contains "pinned" %}
-            {% include postPrev.html %}
-        {% endunless  %}
-    {%- endfor -%}
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+  {% endif %}
 </div>
