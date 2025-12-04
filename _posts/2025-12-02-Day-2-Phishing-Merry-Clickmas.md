@@ -323,7 +323,7 @@ What is the total number of toys expected for delivery?
 1984000
 
 
- ![alt text](../assets/img/ToyProductionEMail.png)
+ ![alt text](https://github.com/mberger/AdventOfCyber2025/blob/main/assets/img/ToyProductionEMail.png?raw=true)
 
 
 If you enjoyed today's room, feel free to check out the [Phishing Prevention](https://tryhackme.com/room/phishingemails4gkxh) room.
