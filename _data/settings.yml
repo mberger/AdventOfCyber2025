@@ -11,7 +11,7 @@ menu:
 #- {name: 'Learning Resources', url: 'resources'}
 #- {name: 'Sample Posts',       url: 'sample-posts'}
 - {name: 'The Story',      url: 'documentation'}
-- {name: 'Side Quests',              url: 'about'}
+- {name: 'Side Quests',              url: 'SideQuests'}
 #- {name: 'Contact',            url: 'contact'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
