@@ -6,7 +6,6 @@ categories: welcome
 image: Day7-banner.png
 ---
 
-
 # Network Services - Santa’s Backdoor
 
 TryHackMe Room: <https://tryhackme.com/room/networkservices-aoc2025-jnsoqbxgky> Advent of Cyber 2025 – Day 7
@@ -23,6 +22,7 @@ TryHackMe Room: <https://tryhackme.com/room/networkservices-aoc2025-jnsoqbxgky> 
 Panic at the North Pole! An old toy-server is wide open on the network, sharing files nobody should see. Sir Carrotbane has already been sniffing around, downloading blueprints for next year’s toys and even trying to change the Naughty & Nice database. The elves need you to hop onto the network, explore three forgotten services (SMB, Telnet, FTP), grab the evidence, and lock the doors before EASTMAS ruins gift day forever.
 
 ### What You Actually Do (Task Flow)
+
 
 1. Deploy the machine → fire off a quick nmap -sV -sC MACHINE_IP and watch the nostalgia hit (ports 21, 23, 139/445, 2049… it's a museum).
 2. **FTP (port 21)**: Anonymous login allowed → download the "to-do list" that basically reads like a villain's shopping list.
@@ -111,6 +111,7 @@ Discover Network Services
 
 
 Although we lost access to the QA server, at least it's still active, and we know its IP address. That's good news, since now we can counterattack and hopefully find our way back. Ensure you understand basic [Networking Concepts](https://tryhackme.com/room/networkingconcepts) like network ports, and let's plan the engagement!
+
 
 1. Know your target. In our case, it is the `tbfc-devqa01` server with the `MACHINE_IP` IP address.
 2. Scan the IP for open ports, especially common ones like 22 for SSH and 80 for HTTP.
