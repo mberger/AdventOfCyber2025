@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Network Discovery - Scan-ta Clause"
-date:   2025-12-07
+title:  "Passwords - A Cracking Christmas"
+date:   2025-12-09
 categories: welcome
-image: Day8-banner.png
+image: Day9-banner.svg
 ---
 
 # Attacks on Encrypted Files - Cracking the Naughty List

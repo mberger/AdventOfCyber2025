@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Network Discovery - Scan-ta Clause"
-date:   2025-12-07
+title:  "Prompt Injection - Sched-yule conflict"
+date:   2025-12-08
 categories: welcome
 image: Day8-banner.png
 ---
