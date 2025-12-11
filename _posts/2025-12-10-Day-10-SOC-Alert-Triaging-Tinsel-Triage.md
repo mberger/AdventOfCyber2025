@@ -6,6 +6,9 @@ categories: welcome
 image: Day10-banner.svg
 --- 
 
+## During the real time Advent of Cyber for 2025, this day's activities were no available. The answers below are not answered at this time, but if they do open them I will finish.
+
+
 # SOC Alert Triaging - Tinsel Triage
 
 TryHackMe Room: <https://tryhackme.com/room/azuresentinel-aoc2025-a7d3h9k0p2> Advent of Cyber 2025 – Day 10
