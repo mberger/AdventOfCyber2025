@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Day 17 -CyberChef - Hoperation Save McSkidy
+title:  "Day 17 -CyberChef - Hoperation Save McSkidy"
 date:   2025-12-17
 categories: welcome
 image: Day17-banner.png
