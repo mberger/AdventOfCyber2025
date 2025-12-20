@@ -3,7 +3,7 @@ layout: post
 title:  "Day 16 - Forensics - Registry Furensics"
 date:   2025-12-16
 categories: welcome
-image: Day16-banner.png
+image: Day16-banner.svg
 ---
 
 # Registry Forensics - Reg the Halls
