@@ -101,8 +101,8 @@ AWS accounts can be accessed programmatically by using an Access Key ID and a Se
 
 
 ```javascript
-aws_access_key_id = AKIAU2VYTBGYOYXYZXYZ
-aws_secret_access_key = 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
+OLD_aws_access_key_id = AKIAU2VYTBGYOYXYZXYZ
+OLD_aws_secret_access_key = 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
 ```
 
 
