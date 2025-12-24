@@ -100,9 +100,9 @@ Target machine !\[Machine info\](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciI
 AWS accounts can be accessed programmatically by using an Access Key ID and a Secret Access Key. For this room, both of those will be automatically configured for you. The AWS CLI will look for credentials at `~/.aws/credentials`, where you should see something similar to the following:
 
 
-```javascript
-OLD_aws_access_key_id = AKIAU2VYTBGYOYXYZXYZ
-OLD_aws_secret_access_key = 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
+```bash
+OLD_aws_access_key_id = AXXXXXXXXXXXXXXXx
+OLD_aws_secret_access_key = DXXXXXXXXXXXXXXXXXXXXXXx
 ```
 
 
