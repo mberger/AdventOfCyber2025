@@ -100,10 +100,6 @@ Target machine !\[Machine info\](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciI
 AWS accounts can be accessed programmatically by using an Access Key ID and a Secret Access Key. For this room, both of those will be automatically configured for you. The AWS CLI will look for credentials at `~/.aws/credentials`, where you should see something similar to the following:
 
 
-```bash
-OLD_aws_access_key_id = AXXXXXXXXXXXXXXXx
-OLD_aws_secret_access_key = DXXXXXXXXXXXXXXXXXXXXXXx
-```
 
 
 Amazon Security Token Service (STS) allows us to utilise the credentials of a user that we have saved during our AWS CLI configuration. We can use the `get-caller-identity` call to retrieve information about the user we have configured for the AWS CLI. Let's run the following command:
@@ -391,12 +387,6 @@ The output will provide us the credentials we need to assume this role, specific
 Setting the Temporary Credentials to Assume Role
 
       
-user@machine$ export AWS_ACCESS_KEY_ID="ASIAxxxxxxxxxxxx"
-user@machine$ export AWS_SECRET_ACCESS_KEY="abcd1234xxxxxxxxxxxx"
-user@machine$ export AWS_SESSION_TOKEN="FwoGZXIvYXdzEJr..."
-
-    
-
 Once we have done that, we can officially use the permissions granted by the bucketmaster role. To check if you have correctly assumed the role, you can once again run:
 
 aws sts get-caller-identity
@@ -547,14 +537,6 @@ This command will ask STS, the service in charge of AWS security tokens, to gene
 The output will provide us the credentials we need to assume this role, specifically the `AccessKeyID`, `SecretAccessKey` and `SessionToken`. To be able to use these, run the following commands in the terminal, replacing with the exact credentials that you received on running the `assume-role` command.
 
 Setting the Temporary Credentials to Assume Role
-
-```javascript
-      user@machine$ export AWS_ACCESS_KEY_ID="ASIAxxxxxxxxxxxx"
-user@machine$ export AWS_SECRET_ACCESS_KEY="abcd1234xxxxxxxxxxxx"
-user@machine$ export AWS_SESSION_TOKEN="FwoGZXIvYXdzEJr..."
-    
-```
-
 
 Once we have done that, we can officially use the permissions granted by the `bucketmaster` role. To check if you have correctly assumed the role, you can once again run:
 
